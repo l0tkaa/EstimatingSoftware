@@ -55,7 +55,7 @@ While Beta-PERT defines the risk of a single item, Monte Carlo determines the ri
     Statistical Analysis: After 10,000 runs, the engine sorts the results to find the P10 (Aggressive), P50 (Median), and P90 (Safe) bid amounts.
 
 
-## Technical Challenges
+## Technical Challenges + other Ideas
 I am currently documenting and solving the following engineering hurdles:
 
   - JNI Memory Latency: Reducing the overhead of copying massive data sets between Java and C++.
@@ -63,6 +63,14 @@ I am currently documenting and solving the following engineering hurdles:
  - Warp Divergence: Optimizing the CUDA kernel to ensure all 32 threads in a warp follow similar execution paths during random sampling to maximize GPU throughput.
 
 -  Offline ACID Compliance: Tuning the H2 database to prevent corruption during unexpected power loss on remote job-site laptops.
+  
+-  Secure connection to Quickbooks to allow for profit/loss
+  
+-  Main database with local cache storage on individual apps to account for disconnects (give option to allow for local only, no internet, or web app-like with access via mobile/laptops????)
+
+
+
+
 
   ## Project Roadmap
   
