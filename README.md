@@ -79,7 +79,13 @@ I am currently documenting and solving the following engineering hurdles:
 [ ] Phase 1: Foundation
 
     [ ] Initialize Spring Boot / Angular structure.
+    - Controller - post/getmapping getMaterialsCostLow, Med, High()
+    - Entity - Bid - projectName, clientName, id, bidStatus, createdAt, syncedToQuickbooks bool
+    - Entity - Materials
 
+    -Service - registerUser(), processPayment(), updateOrderStatus(), etc.
+    -Repository- save(), findById(), findAll(), delete(), etc.
+    - Materials to H2/SQL
     [ ] Configure H2 local file persistence.
 
 [ ] Phase 2: Simulation Engine
