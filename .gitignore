@@ -1,0 +1,46 @@
+# --- Java / Maven ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Database (Local H2) ---
+# This ignores your local bid data so it doesn't leak online
+data/
+*.db
+*.mv.db
+*.trace.db
+
+# --- Angular / Node ---
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Native / CUDA ---
+# We keep source code (.cu, .cpp), but ignore compiled binaries
+*.dll
+*.so
+*.dylib
+*.exe
+*.obj
+*.lib
+*.exp
+*.out
+*.app
+
+# --- IDEs / System ---
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+logs/
