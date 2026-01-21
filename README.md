@@ -85,14 +85,31 @@ I am currently documenting and solving the following engineering hurdles:
 
     -Service - registerUser(), processPayment(), updateOrderStatus(), etc.
     -Repository- save(), findById(), findAll(), delete(), etc.
+    
     - Materials to H2/SQL
+
+
+
+    
     [ ] Configure H2 local file persistence.
 
 [ ] Phase 2: Simulation Engine
 
     [ ] Implement Beta-PERT math logic (Java CPU Fallback).
 
+    - ProbabilityDistribution Interface
+    - BetaPertDIstribution Interface
+    - MonteCarloEngine (Operates on distributions)
+
+    
     [ ] Generate JNI header files for native communication.
+    
+
+[ ] Phase 2.5: Java Testing
+
+    [ ] Implement JUnit Testing
+
+    
 
 [ ] Phase 3: GPU Acceleration
 
